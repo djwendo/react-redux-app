@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MessagePresenter from './client/components/MessagePresenter';
 import App from './client/components/App.react';
 
 const Foo = ({ props }) => (
@@ -12,7 +12,10 @@ export default [
     Component: App,
     children: [
       {
-        Component: () => <div>Main</div>,
+        Component: () => 
+        <div>Main
+        <MessagePresenter/>
+        </div>,
       },
       {
         path: 'foo',

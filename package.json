@@ -21,8 +21,10 @@
     "redux-logger": "^3.0.6",
     "redux-seamless-immutable": "^0.3.1",
     "redux-threads": "^0.2.0",
+    "redux-thunk": "^2.2.0",
     "seamless-immutable": "^7.1.2",
-    "serialize-javascript": "^1.4.0"
+    "serialize-javascript": "^1.4.0",
+    "yarn": "^1.6.0"
   },
   "scripts": {
     "build:client": "webpack --progress",
@@ -53,5 +55,15 @@
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1",
     "webpack-partial": "^2.1.0"
-  }
+  },
+  "description": "## Setup",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djwendo/react-redux-app.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/djwendo/react-redux-app/issues"
+  },
+  "homepage": "https://github.com/djwendo/react-redux-app#readme"
 }
